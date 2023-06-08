@@ -21,7 +21,7 @@ describe('employees', function() {
       updateEmployeeWithKeyAndValue(employee, 'streetAddress', '11 Broadway');
 
       expect(employee['streetAddress']).to.equal(undefined);
-    });
+    }); //help
   });
 
   describe('destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value)', function () {
@@ -36,7 +36,7 @@ describe('employees', function() {
         streetAddress: '12 Broadway'
       });
     });
-  });
+  }); //review
 
   describe('deleteFromEmployeeByKey(employee, key)', function () {
     it('deletes `key` from a clone of employee and returns the new employee (it is non-destructive)', function () {
